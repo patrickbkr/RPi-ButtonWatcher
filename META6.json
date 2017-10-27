@@ -5,7 +5,7 @@
   "version"      : "0.0.1",
   "description"  : "A button push event supplier.",
   "tags" : [
-    "Raspberry Pi"
+    "RaspberryPi"
   ],
   "depends" : [
     "RPi::Wiring::Pi"
