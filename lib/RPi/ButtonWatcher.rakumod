@@ -5,7 +5,7 @@ use RPi::Wiring::Pi;
 enum Edge < RISING FALLING BOTH >;
 enum PUD < PULL_UP PULL_DOWN PULL_OFF >;
 
-class RPi::ButtonWatcher:ver<0.0.1> {
+class RPi::ButtonWatcher {
     has %!gpio-to-wiring-pins{Int};
     has %!prev-vals{Int};
     has Edge $!edge;
